@@ -1,0 +1,10 @@
+.render-seats {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  width: auto;
+}
+
+.allocBt {
+  height: 40px;
+  width: 160px;
+}

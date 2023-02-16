@@ -1,0 +1,54 @@
+.agent-regis-main-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+.agent-regis-sub-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  border-radius: 12px;
+}
+
+.regis-heading {
+  font-family: "Roboto";
+  font-weight: 700;
+  color: white;
+}
+.agent-regis-form {
+  display: flex;
+  width: 45%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: white;
+}
+.agent-regis-input {
+  width: 100%;
+  height: 35px;
+  border: none;
+  border: 1px solid white;
+  border-radius: 6px;
+}
+.regis-btn {
+  width: 100px;
+  height: 40px;
+  border: 1px solid white;
+  border-radius: 6px;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.err {
+  font-family: "Roboto";
+  font-weight: bold;
+  color: Red;
+  font-size: 14px;
+}

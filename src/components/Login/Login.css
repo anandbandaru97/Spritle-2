@@ -1,0 +1,68 @@
+.agent-login-main-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+.agent-login-sub-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  border-radius: 12px;
+  border: solid white;
+  background-color: black;
+}
+
+.login-heading {
+  font-family: "Roboto";
+  font-weight: 700;
+  color: white;
+}
+.agent-login-form {
+  display: flex;
+  width: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.agent-login-input {
+  width: 100%;
+  margin: 5px;
+  padding: 3px;
+  height: 35px;
+  border: solid white;
+  border-radius: 6px;
+}
+.login-btn {
+  width: 100px;
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 6px;
+  color: white;
+  background-color: black;
+  margin-top: 12px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.err {
+  font-family: "Roboto";
+  font-weight: bold;
+  color: red;
+  font-size: 14px;
+}
+@media only screen and (max-width: 600px) {
+  .agent-login-sub-container {
+    margin-top: 20%;
+    display: flex;
+    width: auto;
+    justify-content: center;
+  }
+  .agent-login-main-container {
+    height: auto;
+    width: auto;
+  }
+}

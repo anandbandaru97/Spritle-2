@@ -1,0 +1,50 @@
+.home {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
+  background-color: black;
+}
+.container-home {
+  width: 100%;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  background-color: white;
+}
+
+h2 {
+  color: white;
+}
+
+.home button {
+  height: 60px;
+  width: 200px;
+  background-color: black;
+  border-radius: 20px;
+  border: solid white;
+  color: white;
+  margin: 50px;
+  font-size: 20px;
+}
+button:hover {
+  cursor: pointer;
+  background-color: black;
+}
+.wrapper {
+  height: 100%;
+  width: 50%;
+}
+img {
+  max-height: 300px;
+}
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    height: 100%;
+    width: 100%;
+  }
+}
