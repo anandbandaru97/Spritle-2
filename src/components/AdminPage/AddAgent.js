@@ -118,7 +118,6 @@ const AddAgent = (props) => {
           </button>
         </form>
         <p style={{ color: "red" }}>{error}</p>
-        <hr />
       </div>
     </>
   );
